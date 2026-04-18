@@ -1,9 +1,9 @@
 name: Update Project Tracker Sheet
 
 on:
-  schedule:
-    # Runs daily at 8:00 AM UTC
-    - cron: '0 8 * * *'
+  # schedule:
+  #   # Runs daily at 8:00 AM UTC
+  #   - cron: '0 8 * * *'
   workflow_dispatch: # Allow manual triggers for testing
 
 jobs:
